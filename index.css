@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #f8f0f0;
+    padding: 20px;
+    margin: 8% auto 8%;
+    text-align: center;
+}
+.sign-up-form h2{
+    color: #0992fc;
+    margin-bottom: 20px;
+}
+.input-box{
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    width: 100%;
+    border: 1px solid #998;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-button{
+    background-color: #1c8add;
+}
+.signup-button:hover{
+    background-color: #21afde;
+}
+.gmail-button{
+    background-color: #21afde;
+}
+.gmail-button:hover{
+    background-color: #8ed7f0;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 15px;
+    width: 80px;
+}
+.or{
+    background: #f8f0f0;
+    width: 30px;
+    margin: -19px auto 5px;
+}
+p{
+    font-size: small;
+}
+@media screen and (min-width: 400px) {
+    }
+    .sign-up-form {
+      background: #f8f0f0;
+    }
+@media screen and (min-width: 800px) {
+    .or{
+      background: rgb(231, 248, 248);
+    }
+    .sign-up-form{
+      background: rgb(231, 248, 248);
+      border: 2px solid rgb(248, 176, 176);
+    }
+    body{
+      background: rgb(8, 8, 8);
+    }
+}
